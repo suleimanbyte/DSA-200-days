@@ -28,10 +28,31 @@ public class Arrays {
         // // code block to be executed
         // }
 
-        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-        for (String car : cars) {
-            System.out.println(car);
-        }
+        // String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        // for (String car : cars) {
+        //     System.out.println(car);
+        // }
+
+        // Arrays Exercises
+        // // 1 - find the largest element in an arrays
+        // int[] arr = {20, 6, 30, 65, 12};
+        // int max = arr[0];
+        // for(int i = 0; i < arr.length; i++){
+        //     if(max < arr[i]){
+        //         max = arr[i];
+        //     }
+        // }
+        // System.out.println("Largest element is: " + max);
+
+
+        // // 1 - search for a specific element in an array
+        // int[] arr = {20, 6, 30, 65, 12};
+        // int target = 12;
+        // for(int i = 0; i < arr.length; i++){
+        //     if(arr[i] == target){
+        //         System.out.println("Target : " + arr[i]);
+        //     }
+        // }
 
     }
 }
