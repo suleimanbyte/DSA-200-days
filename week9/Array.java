@@ -1,4 +1,5 @@
-public class Arrays {
+import java.util.Scanner;
+public class Array {
     public static void main(String[] args){
         // int[] numbers = {1, 3, 5, 7, 9};
         // int numbers[] = {1, 3, 5, 7, 9};
@@ -52,6 +53,37 @@ public class Arrays {
         //     if(arr[i] == target){
         //         System.out.println("Target : " + arr[i]);
         //     }
+        // }
+
+
+        // 2D array
+
+        int[][] myNumbers = { {1, 4, 2}, {3, 6, 8, 5, 2} };
+
+        for (int[] row : myNumbers) {
+            for (int num : row) {
+                System.out.println(num);
+            }
+        }
+
+        Scanner sc = new Scanner(System.in);
+        int[][] nums = new int[3][2];
+            
+        for(int rows = 0; rows < nums.length; rows++){
+            for(int cols = 0; cols < nums[rows].length; cols++){
+                nums[rows][cols] = sc.nextInt();
+            }
+        }
+
+        // for(int rows = 0; rows < nums.length; rows++){
+        //     for(int cols = 0; cols < nums[rows].length; cols++){
+        //         System.out.print(nums[rows][cols] + " ");
+        //     }
+        //     System.out.println();
+        // }
+
+        // for(int rows = 0; rows < nums.length; rows++){
+        //     System.out.print(Arrays.toString(nums[rows]));
         // }
 
     }
